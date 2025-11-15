@@ -1,4 +1,4 @@
-\## Student Exam Analysis
+## Student Exam Analysis
 
 
 
@@ -10,11 +10,10 @@ A Python project for exploring and analyzing student exam scores. This repositor
 
 
 
-\## Features
+## Features
 
 
-
-\*\*Data Preprocessing:\*\*  
+**Data Preprocessing:**  
 
 &nbsp; - Displays summary statistics for all numeric columns  
 
@@ -22,7 +21,7 @@ A Python project for exploring and analyzing student exam scores. This repositor
 
 
 
-\*\*Statistical Analysis:\*\*  
+**Statistical Analysis:**  
 
 &nbsp; - Computes key metrics: mean, standard deviation, skewness, and kurtosis  
 
@@ -30,19 +29,19 @@ A Python project for exploring and analyzing student exam scores. This repositor
 
 
 
-\- \*\*Visualizations:\*\*  
+- **Visualizations:**  
 
-&nbsp; - \*\*Scatter plots\*\* of Math vs Reading scores, colored by gender with regression line and correlation coefficient  
+&nbsp; - **Scatter plots** of Math vs Reading scores, colored by gender with regression line and correlation coefficient  
 
-&nbsp; - \*\*Bar plots\*\* showing average Writing scores grouped by test preparation course  
+&nbsp; - **Bar plots** showing average Writing scores grouped by test preparation course  
 
-&nbsp; - \*\*Correlation heatmaps\*\* to identify relationships between Math, Reading, and Writing scores  
+&nbsp; - **Correlation heatmaps** to identify relationships between Math, Reading, and Writing scores  
 
-&nbsp; - \*\*Histograms\*\* of Math scores with mean lines for quick visual insights  
+&nbsp; - **Histograms** of Math scores with mean lines for quick visual insights  
 
 
 
-&nbsp;\*\*Interpretation:\*\*  
+&nbsp;**Interpretation:**  
 
 &nbsp; - Provides plain-language explanations of statistical moments to aid understanding of score distributions and potential performance patterns  
 
@@ -52,7 +51,7 @@ A Python project for exploring and analyzing student exam scores. This repositor
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -60,15 +59,15 @@ The project expects a CSV file named `data.csv` with at least the following colu
 
 
 
-\- `gender`  
+- `gender`  
 
-\- `math score`  
+- `math score`  
 
-\- `reading score`  
+- `reading score`  
 
-\- `writing score`  
+- `writing score`  
 
-\- `test preparation course`  
+- `test preparation course`  
 
 
 
@@ -78,24 +77,17 @@ The project expects a CSV file named `data.csv` with at least the following colu
 
 
 
-\## Plots Generated
+## Plots Generated
 
 
 
 -relational\_plot.png — Scatter plot of Math vs Reading scores with correlation
 
-
-
 \-categorical\_plot.png — Bar plot of average Writing scores by test preparation
-
-
 
 \-statistical\_heatmap.png — Correlation heatmap of all exam scores
 
-
-
 \-math\_score\_histogram.png — Histogram of Math scores with mean line
-
 
 
 These plots provide a visual summary of performance trends and relationships, helping identify patterns in student achievement.
@@ -105,11 +97,7 @@ These plots provide a visual summary of performance trends and relationships, he
 ---
 
 
-
-
-
-\## Conclusion
-
+## Conclusion
 
 
 This project demonstrates a structured approach to exploratory data analysis (EDA) for student exam scores. By combining statistical metrics with clear visualizations, it provides a deeper understanding of the dataset, highlights trends and correlations, and interprets data distributions in a meaningful way. The workflow and methods used here can be easily adapted for analyzing other academic or performance datasets.
